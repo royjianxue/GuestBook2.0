@@ -55,10 +55,10 @@ namespace GuestBook2._0
             int total = 0;
             foreach(KeyValuePair<string, int> guest in myDic) //search for keyValuePair, displace key and value
             {
-                System.Console.WriteLine($"\nWe have guest family {guest.Key}.");
+                System.Console.WriteLine($"We have guest family {guest.Key}.\n");
                 total += guest.Value;
             }
-            System.Console.WriteLine($"\nWelcome! We have {total} guests at the party.");
+            System.Console.WriteLine($"Welcome! We have {total} guests at the party.");
             Console.ReadKey();
         }
 
