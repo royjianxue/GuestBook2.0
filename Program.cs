@@ -15,7 +15,7 @@ namespace GuestBook2._0
             {       
                 string partyName = GetPartyName(); // GetPartyName
                 int size = GetPartySize();         // GetPartySize
-                PartyDic.Add(partyName, size);      // fill up the dictionary
+                PartyDic.Add(partyName, size);      // fill up the dictionary, we can also use list with tuple
 
             } while (KeepGoing());
 
@@ -55,9 +55,10 @@ namespace GuestBook2._0
             int total = 0;
             foreach(KeyValuePair<string, int> guest in myDic) //search for keyValuePair, displace key and value
             {
-                System.Console.WriteLine($"We have guest family {guest.Key}.\n");
+                System.Console.WriteLine($"We have guest family {guest.Key}.");
                 total += guest.Value;
             }
+            System.Console.WriteLine();
             System.Console.WriteLine($"Welcome! We have {total} guests at the party.");
             Console.ReadKey();
         }
@@ -66,6 +67,7 @@ namespace GuestBook2._0
         {
             Console.Write("Are there any more guest family(yes or no): ");
             string answer = Console.ReadLine();
+            Console.WriteLine();
             if(answer.ToLower() == "yes")
             {
                 return true;
