@@ -1,0 +1,16 @@
+/home/royxue/Desktop/csharp/GuestBook2.0/bin/Debug/net5.0/GuestBook2.0
+/home/royxue/Desktop/csharp/GuestBook2.0/bin/Debug/net5.0/GuestBook2.0.deps.json
+/home/royxue/Desktop/csharp/GuestBook2.0/bin/Debug/net5.0/GuestBook2.0.runtimeconfig.json
+/home/royxue/Desktop/csharp/GuestBook2.0/bin/Debug/net5.0/GuestBook2.0.runtimeconfig.dev.json
+/home/royxue/Desktop/csharp/GuestBook2.0/bin/Debug/net5.0/GuestBook2.0.dll
+/home/royxue/Desktop/csharp/GuestBook2.0/bin/Debug/net5.0/GuestBook2.0.pdb
+/home/royxue/Desktop/csharp/GuestBook2.0/obj/Debug/net5.0/GuestBook2.0.csproj.AssemblyReference.cache
+/home/royxue/Desktop/csharp/GuestBook2.0/obj/Debug/net5.0/GuestBook2.0.GeneratedMSBuildEditorConfig.editorconfig
+/home/royxue/Desktop/csharp/GuestBook2.0/obj/Debug/net5.0/GuestBook2.0.AssemblyInfoInputs.cache
+/home/royxue/Desktop/csharp/GuestBook2.0/obj/Debug/net5.0/GuestBook2.0.AssemblyInfo.cs
+/home/royxue/Desktop/csharp/GuestBook2.0/obj/Debug/net5.0/GuestBook2.0.csproj.CoreCompileInputs.cache
+/home/royxue/Desktop/csharp/GuestBook2.0/obj/Debug/net5.0/GuestBook2.0.dll
+/home/royxue/Desktop/csharp/GuestBook2.0/obj/Debug/net5.0/refint/GuestBook2.0.dll
+/home/royxue/Desktop/csharp/GuestBook2.0/obj/Debug/net5.0/GuestBook2.0.pdb
+/home/royxue/Desktop/csharp/GuestBook2.0/obj/Debug/net5.0/GuestBook2.0.genruntimeconfig.cache
+/home/royxue/Desktop/csharp/GuestBook2.0/obj/Debug/net5.0/ref/GuestBook2.0.dll

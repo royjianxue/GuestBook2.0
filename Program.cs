@@ -9,10 +9,10 @@ namespace GuestBook2._0
         static void Main(string[] args)
         {
             Dictionary<string, int> PartyDic = new Dictionary<string, int>();
-           
+            WelcomeMessage();                   //WelcomeMessage
+
             do
             {       
-                WelcomeMessage();                   //WelcomeMessage
                 string partyName = GetPartyName(); // GetPartyName
                 int size = GetPartySize();         // GetPartySize
                 PartyDic.Add(partyName, size);      // fill up the dictionary
@@ -30,7 +30,7 @@ namespace GuestBook2._0
         }
         public static string GetPartyName()
         {
-            Console.WriteLine("What is your party/Group name: ");
+            Console.Write("What is your party/Group name: ");
             string output = Console.ReadLine();
 
             return output;
@@ -41,7 +41,7 @@ namespace GuestBook2._0
             int partySize;
             do
             {
-                Console.WriteLine("How many people are in your party: ");
+                Console.Write("How many people are in your party: ");
                 string partySizeText = Console.ReadLine();
                 isValidNumber = int.TryParse(partySizeText, out partySize);
 
@@ -55,10 +55,10 @@ namespace GuestBook2._0
             int total = 0;
             foreach(KeyValuePair<string, int> guest in myDic) //search for keyValuePair, displace key and value
             {
-                System.Console.WriteLine($"\nWe have guest family {guest.Key}, and they have {guest.Value} members at the party..");
+                System.Console.WriteLine($"\nWe have guest family {guest.Key}.");
                 total += guest.Value;
             }
-            System.Console.WriteLine($"\nThere are {total} guests at the party.");
+            System.Console.WriteLine($"\nWelcome! We have {total} guests at the party.");
             Console.ReadKey();
         }
 
